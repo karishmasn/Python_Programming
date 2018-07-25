@@ -1,4 +1,11 @@
 var=int(input("Enter a integer:"))
 print("variable holds:",var)
-if var%2!=0:
- print("variable holds odd number")
+
+def check_odd(num):
+    if num%2==0:
+        return False
+    else :
+        return True
+
+
+print("the number is Odd :",check_odd(var))
