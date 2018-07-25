@@ -1,0 +1,8 @@
+a=list()
+print(id(a))
+print(type(a))
+print(a)
+a.append(100)
+print(id(a))
+print(type(a))
+print(a)
